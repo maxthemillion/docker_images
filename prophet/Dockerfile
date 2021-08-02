@@ -24,7 +24,7 @@ RUN wget \
 
 
 RUN conda install -c conda-forge jupyterlab && \
-    pip install pandas numpy convertdate Cython lunarcalendar && \
+    pip install pandas numpy convertdate Cython lunarcalendar ujson pillow korean-lunar-calendar kiwisolver hijri-converter cycler setuptools-git matplotlib holidays cmdstanpy && \
     pip install pystan==2.19.1.1 && \
     pip install prophet && \
     pip install plotly
