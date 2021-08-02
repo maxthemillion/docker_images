@@ -1,7 +1,7 @@
 FROM r-base 
 
 LABEL version="0.1"
-LABEL description="This image encapsulates an environment to run the rethinking package for \
+LABEL description="This image encapsulates an environment to run rstan and the rethinking package for \
     the statistics course statistical rethinking on a simple linux image"
 
 ENTRYPOINT []
